@@ -1,8 +1,9 @@
 {
-  "name": "aritmatik",
-  "version": "1.0.0",
+  "name": "@nimetozk/aritmatik",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
+  "repository": "https://github.com/nimetozk/Calculator.git",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
