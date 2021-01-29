@@ -15,9 +15,19 @@ const  bolme= function(x,y){
     return x/y;
 }
 
+const factor = (x,y) => {
+
+    if(x ===1 ){
+        return x;
+    }
+
+    return x * factor(x-1);
+}
+
 module.exports = {
     topla,
     cikar,
     bolme,
-    carp
+    carp,
+    factor
 }
